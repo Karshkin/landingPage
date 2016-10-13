@@ -1,0 +1,16 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+
+<br>
+{% if num == "1" %}
+<h1 >Has elegido el Imperio Galáctico</h1>
+<img src="{{ asset('img/imperio.png')}}" alt="" />
+<br>
+{% endif %}
+
+{% if num == "2"  %}
+<h1>Has elegido la Rebelión</h1>
+<img src="{{ asset("img/rebeldes.png")}}" alt="" />
+<br>
+{% endif %}
+{% endblock %}

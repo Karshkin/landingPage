@@ -1,0 +1,6 @@
+landing_homepage:
+    path:     /
+    defaults: { _controller: landingBundle:Default:index }
+landing_bando:
+    path:     /bando/{num}
+    defaults: { _controller: landingBundle:Default:bando }
